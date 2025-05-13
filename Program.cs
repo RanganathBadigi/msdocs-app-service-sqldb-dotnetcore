@@ -2,6 +2,7 @@
 using DotNetCoreSqlDb.Data;
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add database context and cache
 if(builder.Environment.IsDevelopment())
 {
